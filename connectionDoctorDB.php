@@ -1,6 +1,5 @@
 <?php
-$hostname = 'localhost';
-$username = 'testhost';
-$password = 'password';
-$project = 'userLogin';
+mysql_connect('localhost','root','');
+mysql_select_db('doctor');
 ?>
+
